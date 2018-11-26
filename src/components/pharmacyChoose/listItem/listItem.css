@@ -1,0 +1,61 @@
+.root{
+    display: flex;
+    height: 160px;
+    border-radius: 10px;
+    background: #fff;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    height: 160px;
+    background: url("../images/bg.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.logo-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background: #fff;
+}
+.logo{
+    width:60px;
+    height:70px;
+}
+.info{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left:28px;
+}
+.name{
+    font-size: 30px;
+    color:#404040;
+}
+.addr{
+    margin-top: 16px;
+    padding-left: 36px;
+    background: url("../images/location-ico.png") no-repeat left bottom;
+    background-size: 32px 32px;
+    font-size: 24px;
+    color:#999;
+}
+.labels{
+    display: flex;
+    margin-top: 16px;
+}
+.label{
+    width:56px;
+    margin-right: 10px;
+    line-height: 28px;
+    border:1px solid #6793e5;
+    border-radius: 5px;
+    font-size: 22px;
+    color:#fff;
+    text-align: center;
+    background:#6793e5 ;
+}

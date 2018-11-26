@@ -1,0 +1,73 @@
+.root{
+    height: 100%;
+    background: #fff;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:574px;
+    background: url("../../assets/images/bg.png") no-repeat center;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.logo-box{
+    margin-bottom: 40px;
+    width:200px;
+    height: 200px;
+    background: #fff;
+    border-radius: 50%;
+}
+.logo{
+    width:140px;
+    height:164px;
+    margin: 18px 30px;
+}
+.name{
+    font-size: 60px;
+    color:#fff;
+}
+.form{
+    width:540px;
+    margin: 0 auto;
+    text-align: center;
+}
+.input-box{
+    border-bottom: 1px solid #6793e5;
+}
+.input-box+.input-box{
+    margin-top: 80px;
+}
+.input{
+    width:470px;
+    height:50px;
+    padding: 10px 0 10px 70px;
+    background: url("../../assets/images/user.png") no-repeat left center;
+    background-size: 44px 44px;
+    border:none;
+    outline: none;
+    color:#999;
+    font-size: 30px;
+}
+.input-pwd{
+    composes: input;
+    background-image: url("../../assets/images/lock.png");
+}
+.submit-btn{
+    display: block;
+    width:100%;
+    height: 88px;
+    margin-top: 90px;
+    font-size:34px;
+    color:#fff;
+    background: #588ffc;
+    border:1px solid #588ffc;
+    border-radius: 8px;
+    outline: none;
+}
+.forget{
+    margin-top: 20px;
+    font-size:24px;
+    color:#999;
+}

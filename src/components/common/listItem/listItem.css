@@ -1,0 +1,62 @@
+.root{
+    display: flex;
+    width:696px;
+    height: 200px;
+    background: #fff;
+}
+.left{
+    width:225px;
+    height: 200px;
+    background:#f8f8f8 url("./images/bg.png") no-repeat;
+    background-size: cover;
+    color:#fff;
+    text-align: center;
+}
+.unit{
+    font-size: 40px;
+}
+.num{
+    font-size: 110px;
+}
+.status{
+    font-size: 22px;
+    opacity: .8;
+}
+.right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 140px;
+    padding:30px;
+}
+.name{
+    font-size: 36px;
+    font-weight: bold;
+    color:#5a595e;
+}
+.operate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    width:128px;
+    line-height: 44px;
+    border: 1px solid #6793e5;
+    border-radius: 5px;
+    color: #6793e5;
+    text-align: center;
+}
+.text{
+    margin-top: 10px;
+    font-size: 24px;
+    color:#666;
+}
+.link{
+    font-size: 24px;
+    color:#999;
+    padding-right: 30px;
+    background: url("./images/arrows.png") no-repeat right center;
+    background-size: 24px 24px;
+}

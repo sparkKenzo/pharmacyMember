@@ -1,0 +1,33 @@
+.root{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    width:44px;
+    height: 44px;
+    margin: 0 30px;
+}
+.info{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding-right: 30px;
+    border-bottom: 1px solid #eee;
+}
+.no-line-info{
+    composes: info;
+    border-bottom: none;
+}
+.text{
+    font-size: 30px;
+    color:#666;
+}
+.arrow{
+    width: 44px;
+    height: 44px;
+    background: url("./img/arrow.png");
+    background-size: 100% 100%;
+}

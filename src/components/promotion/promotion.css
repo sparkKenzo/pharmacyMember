@@ -1,0 +1,67 @@
+.root{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+    box-sizing: border-box;
+    padding-top:500px;
+    padding-bottom: 30px;
+    background:#476aeb url("./images/bg.png") no-repeat;
+    background-size: 750px 1206px;
+}
+.title{
+    width:534px;
+    height: 62px;
+    line-height: 56px;
+    background: url("./images/title.png") no-repeat left center;
+    background-size: 100% 100%;
+    font-size: 36px;
+    color:#fff;
+    text-align: center;
+    letter-spacing: 8px;
+}
+.list{
+    margin-top: 40px;
+}
+.list-item{
+    position: relative;
+    width:596px;
+    height: 268px;
+    text-align: center;
+    background: url("./images/activity.png") no-repeat;
+    background-size: cover;
+}
+.list-item+.list-item{
+    margin-top: 60px;
+}
+.name{
+    padding-top: 10px;
+    line-height: 40px;
+    font-size: 26px;
+    color:#fff;
+}
+.content{
+    margin-top: 30px;
+    margin-bottom: 16px;
+    font-size: 36px;
+    color:#4267f0;
+}
+.condition{
+    font-size:24px;
+    color:#4267f0;
+}
+.btn{
+    position: absolute;
+    left: 180px;
+    bottom:0;
+    width:200px;
+    padding-left: 40px;
+    line-height: 56px;
+    font-size: 24px;
+    color:#fff;
+    border: none;
+    outline: none;
+    text-align: left;
+    background: url("./images/atn.png") no-repeat;
+    background-size: cover;
+}

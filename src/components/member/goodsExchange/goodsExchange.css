@@ -1,0 +1,30 @@
+.root{
+    height: 100%;
+    background: #f8f8f8;
+}
+.carousel{
+    background: #fff;
+}
+.carousel-img{
+    width:750px;
+    height:480px;
+}
+.info{
+    padding: 30px;
+    border-top:1px solid #ddd;
+    font-size:30px;
+    background: #fff;
+}
+.integral{
+    color:#f37e00;
+}
+.goods-name{
+    color:#333;
+    font-weight: bold;
+    line-height: 60px;
+}
+.condition{
+    margin-top: 20px;
+    padding: 30px;
+    background: #fff;
+}

@@ -1,0 +1,14 @@
+.root{
+    height: 100%;
+    background: #f8f8f8;
+}
+.lists{
+    margin: 0;
+    padding: 0;
+}
+.lists>li{
+    margin:0 auto;
+}
+.lists>li+li{
+    margin-top: 20px;
+}

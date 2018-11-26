@@ -1,0 +1,29 @@
+.root{
+    display: flex;
+    padding: 20px;
+    margin-left: 30px;
+    border-bottom: 1px solid #f8f8f8;
+}
+.icon{
+    width: 114px;
+    height: 170px;
+    margin-right: 36px;
+    background: #eee;
+}
+.info{
+    flex: 1;
+}
+.name{
+    height: 30px;
+    background: #eee;
+}
+.describe{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 20px;
+    background: #eee;
+}
+.price{
+    height: 20px;
+    background: #eee;
+}

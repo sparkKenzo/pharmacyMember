@@ -1,0 +1,65 @@
+.root{
+    padding: 16px 30px;
+    background: #fff;
+}
+.pharmacy-info{
+    display: flex;
+    height: 120px;
+    margin-bottom: 20px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:130px;
+    height: 120px;
+    background: url("../image/bg.png") no-repeat center;
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+.logo-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background: #fff;
+}
+.logo{
+    width:60px;
+    height:70px;
+}
+.info{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left:28px;
+}
+.name{
+    font-size: 36px;
+    color:#333;
+    font-weight: bold;
+}
+.addr{
+    margin-top: 16px;
+    padding-left: 36px;
+    background: url("../image/location-ico.png") no-repeat left bottom;
+    background-size: 32px 32px;
+    font-size: 24px;
+    color:#999;
+}
+.input-search{
+    box-sizing: border-box;
+    width:100%;
+    padding: 0;
+    line-height: 54px;
+    border: 1px solid #e6e6ea;
+    border-radius: 10px;
+    background: #f8f8f8 url("../image/search.png") no-repeat 220px center;
+    background-size: 32px 32px;
+    font-size: 28px;
+    text-align: center;
+    color:#b2b2b2;
+    outline: none;
+}
